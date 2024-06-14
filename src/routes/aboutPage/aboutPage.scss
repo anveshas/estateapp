@@ -1,0 +1,56 @@
+@import "../../responsive.scss";
+
+.about-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f9fa; /* Light gray background */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #343a40; /* Dark gray text */
+  }
+
+  h2 {
+    font-size: 2rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #007bff; /* Blue heading */
+  }
+
+  p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #6c757d; /* Medium gray text */
+  }
+
+  .highlight {
+    background-color: #28a745; /* Green background */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+
+  .quote {
+    font-style: italic;
+    color: #dc3545; /* Red text for quotes */
+  }
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+    }
+  }
+}

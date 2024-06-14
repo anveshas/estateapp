@@ -1,17 +1,26 @@
+import { useContext } from "react";
 import SearchBar from "../../components/searchBar/SearchBar";
 import "./homePage.scss";
+import { AuthContext } from "../../context/AuthContext";
 
 function HomePage() {
+
+  const {currentUser} = useContext(AuthContext);
+  console.log(currentUser);
+  
   return (
     <div className="homePage">
       <div className="textContainer">
         <div className="wrapper">
-          <h1 className="title">Find Real Estate & Get Your Dream Place</h1>
+          <h1 className="title">With Real Estate, Get Your Dream Place</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-            explicabo suscipit cum eius, iure est nulla animi consequatur
-            facilis id pariatur fugit quos laudantium temporibus dolor ea
-            repellat provident impedit!
+          Discover your dream place with ease using our comprehensive listings,<br/>
+        advanced search tools, and expert agents. From cozy city apartments to<br/>
+        luxurious estates in serene landscapes, finding your ideal property is
+        just a<br/> click away. Our website features advanced <span style={{color: 'black', fontWeight: 'bold'}} >chat functionality</span>,
+        enabling<br/> direct negotiations with sellers or landlords. This empowers
+        you to secure<br/> the best deals and make informed decisions for your real
+        estate transactions.
           </p>
           <SearchBar />
           <div className="boxes">
