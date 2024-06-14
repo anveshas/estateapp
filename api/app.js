@@ -5,6 +5,8 @@ import postroute from "./routes/post.route.js";
 import authroute from "./routes/auth.route.js";
 import testroute from "./routes/test.route.js";
 import userroute from "./routes/user.route.js";
+import chatroute from "./routes/chat.route.js";
+import messageroute from "./routes/message.route.js";
 import dotenv from "dotenv";
 
 dotenv.config();
@@ -20,6 +22,8 @@ app.use("/api/auth", authroute);
 app.use("/api/users", userroute);
 app.use("/api/posts", postroute);
 app.use("/api/test", testroute);
+app.use("/api/chat", chatroute);
+app.use("/api/message", messageroute);
 
 
 app.listen(8800, () => {
