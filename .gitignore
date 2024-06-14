@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -22,3 +23,33 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+=======
+# Node.js dependencies
+node_modules/
+
+# Built files
+build/
+dist/
+
+# Environment variables
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE-specific files
+.vscode/
+.idea/
+*.iml
+
+# Package lock files
+package-lock.json
+yarn.lock
+
+# Editor backup files
+*~
+>>>>>>> fee93b056a57223fefb2abbea93d9a316c45be25
