@@ -21,7 +21,7 @@ To run this project locally, follow these steps:
 ```
 The API server will start running on http://localhost:8800.
 
-3. Copy the src source code to a folder named client (there was a mistake while pushing the code from my side):
+3. Copy the src, public and rest all code(except for the vscode, api and socket) source code to a folder named client (there was a mistake while pushing the code from my side):
 
 ```bash
   cd client
