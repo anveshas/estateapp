@@ -31,7 +31,7 @@ The API server will start running on http://localhost:8800.
 The React application will start on http://localhost:5173.
 4. Navigate to the # socket directory, install dependencies and start the server:
   ```bash
-  cd ../socket
+  cd socket
   npm install
   npm start
 ```
