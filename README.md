@@ -2,8 +2,24 @@
 
 The project is essentially about renting, buying, or selling your property to another person without the involvement of a third party. It includes a chat functionality to ensure proper communication between the seller or renter and the buyer.
 
-This repository contains a MERN (MongoDB, Express, React, Node.js) stack project with socket.io that ensures real time chat between the buyer and the seller. It consists of a backend API server, a React client-side application, and a WebSocket server.
+This is made using a MERN (MongoDB, Express, React, Node.js) stack with socket.io that ensures real-time chat between the buyer and the seller. It consists of a backend API server, a React client-side application, and a WebSocket server.
 
+## Features
+- **Property Management**: List properties for rent, sale, or purchase.
+- **Real-Time Chat**: Chat functionality between buyers and sellers using socket.io.
+- **User Authentication**: Secure login and registration for users using JWT for authorization.
+- **Post Management**: Save and manage property posts.
+- **Responsive Design**: Mobile-friendly interface for seamless browsing.
+
+## Technologies Used
+- **Frontend**: React, Bootstrap, TailwindCSS
+- **Backend**: Node.js, Express
+- **Database**: MongoDB
+- **WebSockets**: socket.io
+- **Authorization**: JWT (JSON Web Tokens)
+- **Other Tools**: Git, GitHub, VSCode
+
+  
 ## Installation
 
 To run this project locally, follow these steps:
