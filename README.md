@@ -12,7 +12,7 @@ This is made using a MERN (MongoDB, Express, React, Node.js) stack with socket.i
 - **Responsive Design**: Mobile-friendly interface for seamless browsing.
 
 ## Technologies Used
-- **Frontend**: React, Bootstrap, TailwindCSS
+- **Frontend**: React, Bootstrap
 - **Backend**: Node.js, Express
 - **Database**: MongoDB
 - **WebSockets**: socket.io
