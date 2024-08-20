@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# code
-=======
 # Real Estate
 
 The project is essentially about renting, buying, or selling your property to another person without the involvement of a third party. It includes a chat functionality to ensure proper communication between the seller or renter and the buyer.
