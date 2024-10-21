@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Logs
 logs
 *.log
@@ -51,5 +51,4 @@ package-lock.json
 yarn.lock
 
 # Editor backup files
-*~
->>>>>>> fee93b056a57223fefb2abbea93d9a316c45be25
+
