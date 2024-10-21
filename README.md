@@ -53,4 +53,3 @@ The React application will start on http://localhost:5173.
   npm start
 ```
 The WebSocket server will start running on http://localhost:4000.
->>>>>>> a24eaec7112513414959270f8bd0f1e36c854191
